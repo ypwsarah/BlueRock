@@ -1,0 +1,108 @@
+body{
+	background-color: royalblue;
+	padding: 0;
+/*	height:500vh;*/
+	height:100%;
+	margin:0;
+	text-align: center;
+	cursor:url(image/cursor.svg),auto;
+
+
+/*	overflow:hidden*/
+}
+
+#container {
+/*    display:flex;*/
+/*    align-items:center;*/
+	position:relative;
+	height:100%;
+
+}
+
+#center{
+	position:absolute;
+	-webkit-transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+/*	left:200px;
+/*	top:50%;*/
+/*	left:0;
+	right:0;*/
+/*    width:100%;*/
+/*    margin:auto;
+    text-align: center;*/
+/*    height:50%;*/
+}
+
+#center_c{
+	display:-webkit-flex;
+	display:flex;
+	-webkit-align-items:center;
+	align-items:center;
+	-webkit-justify-content:center;
+	justify-content:center;
+/*	padding:350px;*/
+/*	-webkit-transform:translateY(-50%);
+	-ms-transform:translateY(-50%);*/
+}
+
+
+h1{
+	color: ghostwhite;
+	text-align: center;
+
+}
+
+p{
+	color: lightyellow;
+	text-align: center;
+	font-size: 30px;
+
+}
+
+.blue1{
+	background-color: darkblue;
+}
+
+.blue2{
+	background-color: black;
+}
+
+#myDiv{
+  padding: 10%;
+  background-color: blue;
+  width: 25%;
+  height: 25%;
+}
+
+#mydiv{
+  position: absolute;
+  z-index: 9;
+ /* background-color: #f1f1f1;
+  border: 1px solid #d3d3d3;
+  text-align: center;*/
+/*  height:100%;*/
+}
+
+#mydivheader{
+	 position: absolute;
+/*padding: 10px;*/
+  cursor: move;
+/*  z-index: 10;
+  background-color: #2196F3;
+  color: #fff;*/
+}
+
+svg {
+	display: block;
+	position:fixed; 
+/*	top:0; left:0; */
+	margin-left:auto;
+	margin-right:auto;
+/*	height:100%; */
+/*	width:100% */
+}
+
+.blueRock{
+  text-align:center;
+ 
+}
