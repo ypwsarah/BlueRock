@@ -1,3 +1,9 @@
+
+.pointer{
+	cursor: pointer;
+}
+
+
 body{
 	background-color: royalblue;
 	padding: 0;
@@ -58,6 +64,14 @@ p{
 	font-size: 30px;
 
 }
+.white{
+	background-color: ghostwhite;
+		padding: 0;
+/*	height:500vh;*/
+	height:100%;
+	margin:0;
+	text-align: center;
+}
 
 .blue1{
 	background-color: darkblue;
@@ -102,7 +116,48 @@ svg {
 /*	width:100% */
 }
 
-.blueRock{
-  text-align:center;
+.rock{
+/*  text-align:center;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;*/
+/*  width: 50%;*/
  
 }
+
+* {box-sizing: border-box;}
+
+.img-magnifier-container {
+  position: relative;
+  padding: 20px;
+/*  text-align: center;*/
+/*  display: block;*/
+  margin-left: auto;
+  margin-right: auto;
+/*  width: 50%;*/
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 2px solid #000;
+  border-radius: 80%;
+/*  cursor: none;*/
+  /*Set the size of the magnifier glass:*/
+  width: 700px;
+  height: 700px;
+/*  width:50%;*/
+  margin-left: 350px;
+}
+
+img {
+  opacity: 0;
+}
+
+
+/*.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+*/
